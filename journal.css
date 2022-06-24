@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+
+* {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+
+.journal_body {
+    width: 500px;
+    min-height: 625px;
+
+    text-align: center;
+
+    background-color: #474646;
+
+    border: 2px solid #ad5389;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.journal_title {
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #925178;
+}
+
+.journal_title:hover {
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #81496b;
+    transition: color 1s ease-in;
+}
+
+.journal_window {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #ad5389;
+    background-color: #353535;
+    text-align: left;
+}
+
+.journal_window:hover {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ad5389;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #353535;
+    text-align: left;
+    transition: border-radius 0.9s ease-in-out;
+}
