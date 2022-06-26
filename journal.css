@@ -1,54 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 * {
     font-family: 'Anek Latin', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
 .journal_body {
-    width: 525px;
-    min-height: 625px;
+    width: 550px;
+    min-height: 620px;
 
     text-align: center;
 
     background-color: #474646;
 
-    border: 2px solid #ad5389;
+    border: 2px solid #c2934ee8;
     border-radius: 3px 3px 3px 3px;
 }
 
+
 .journal_title {
-    font-family: 'Itim', cursive;
-    font-size: 35px;
+    height: 75px;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
     text-align: center;
-    color: #925178;
+    color: #747072;
+    border-bottom: 5px double #c2934ee8;
+    background-color:#5c3e5f;
+    background-image: url('https://i.pinimg.com/564x/1b/e8/2d/1be82d42f380fa4ce1ff83476738ebb8.jpg')
 }
 
 .journal_title:hover {
-    font-family: 'Itim', cursive;
-    font-size: 35px;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
     text-align: center;
-    color: #81496b;
-    transition: color 1s ease-in;
+    color: #c2934ee8;
+    transition: color 0.5s ease-in;
 }
 
 .journal_window {
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px 5px 5px 5px;
-    border: 2px solid #ad5389;
+    min-height: 150px;
+    max-height: 180px;
+    padding: 2px;
+    margin: 6px;
+    border-radius: 2px 2px 2px 2px;
+    border: 2px solid #c2934ee8;
     background-color: #353535;
+    color: #7c7c7c;
     text-align: left;
+    font-size: 14px;
 }
 
-.journal_window:hover {
-    padding: 10px;
-    margin: 20px;
-    border: 2px solid #ad5389;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #353535;
-    text-align: left;
-    transition: border-radius 0.9s ease-in-out;
+.journal_window::-webkit-scrollbar {
+    width: 4px;
+    
+}
+
+.journal_window::-webkit-scrollbar-track {
+    background: #7c7c7c;
+}
+
+.journal_window::-webkit-scrollbar-thumb {
+    background: #c2934ee8;
+    border-radius: 4px;
+}
+
+.overflow {
+    /*overflow: scroll;*/
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.subheading-text {
+    font-family: 'Unica One', cursive;
+    font-size: 32px;
+    padding: 3px;
+    margin: 6px;
+}
+
+.subheading-text:hover {
+    font-family: 'Unica One', cursive;
+    font-size: 32px;
+    padding: 3px;
+    margin: 6px;
+    color: #c2934ee8;
+    transition: color 1s ease-in;
 }
