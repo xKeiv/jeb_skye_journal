@@ -27,7 +27,8 @@
     color: #747072;
     border-bottom: 5px double #c2934ee8;
     background-color:#5c3e5f;
-    background-image: url('https://i.pinimg.com/564x/1b/e8/2d/1be82d42f380fa4ce1ff83476738ebb8.jpg')
+    background-image: url('https://i.pinimg.com/564x/1b/e8/2d/1be82d42f380fa4ce1ff83476738ebb8.jpg');
+    background-size: 75%;
 }
 
 .journal_title:hover {
