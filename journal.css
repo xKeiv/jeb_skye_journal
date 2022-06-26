@@ -3,17 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
-* {
-    font-family: 'Anek Latin', sans-serif;
-    font-size: 14px;
-}
-
-
 .journal_body {
     width: 550px;
     min-height: 620px;
 
     text-align: center;
+    
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 14px;
 
     background-color: #474646;
 
